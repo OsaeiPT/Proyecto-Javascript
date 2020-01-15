@@ -1,0 +1,32 @@
+.navbar {
+  border-bottom: #c0392b 3px solid;
+  opacity: 0.7;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.dropdown-item {
+  color: aqua;
+}
+
+.title {
+  margin-top: 80px;
+}
+
+.parrafo {
+  background-color: #187272;
+  color: white;
+}
+
+.texto-js {
+  background-color: #187272;
+  color: white;
+}
+
+.segundo {
+  background-color: violet;
+}
+
+/*# sourceMappingURL=style.css.map */

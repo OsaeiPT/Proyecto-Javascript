@@ -1,0 +1,57 @@
+doctype html
+html(lang="es")
+head
+  meta(charset="UTF-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible" content="ie=edge")
+  title Un Mundo Con JavaScript
+  link(rel="stylesheet", href="css/bootstrap.min.css")
+  link(rel="stylesheet", href="style.css")
+  
+body
+
+  nav.navbar.navbar-expand-sm.bg-dark.navbar-light.fixed-top
+    .container
+      <h1 class="d-none">Sigfrid-Studio</h1>
+      <img src="peru.png" class="img-fluid img-logo">
+      button(type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse")
+        .raya
+        .raya
+        .raya
+      .collapse.navbar-collapse(id="navbarcollapse")
+        ul.navbar-nav.ml-auto
+          li.nav-item
+            a.nav-link(href="fotografo-index.html") Inicio
+          li.nav-item
+          li.nav-item.dropdown
+            a.nav-link.dropdown-toggle(href="#" data-toggle="dropdown") Galerias
+            .dropdown-menu.font
+              a.dropdown-item(href="bodas.html") Bodas
+              a.dropdown-item(href="paisajes.html") Paisajes
+              a.dropdown-item(href="caras-mujeres.html") Mujeres
+              a.dropdown-item(href="caras-hombres.html") Hombres
+          li.nav-item
+            a.nav-link(href="#info-contact") Contactanos
+
+  .container.contenedor
+    .row
+      .col-md-12.text-center
+
+        h1#title.title.text-info Proyecto JavaScript
+
+        p#texto1.parrafo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, voluptates harum sunt provident id nesciunt quia commodi aliquid, amet recusandae magnam voluptatem quam pariatur! Voluptas, distinctio? Pariatur eius dolorem nisi!
+        p#texto2.parrafo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, voluptates harum sunt provident id nesciunt quia commodi aliquid, amet recusandae magnam voluptatem quam pariatur! Voluptas, distinctio? Pariatur eius dolorem nisi!
+        p#texto3.parrafo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, voluptates harum sunt provident id nesciunt quia commodi aliquid, amet recusandae magnam voluptatem quam pariatur! Voluptas, distinctio? Pariatur eius dolorem nisi!
+
+        a.btn.btn-info.boton#boton(href="#") Botón
+
+
+  
+
+  
+   
+script(src="style.js")
+script(src="js/jquery-3.2.1.slim.min.js")
+script(src="js/popper.min.js")
+script(src="js/bootstrap.min.js")
+script(src="fontawesome/fontawesome-free-5.8.2-web/js/all.min.js")
