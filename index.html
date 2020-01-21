@@ -10,20 +10,13 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-sm bg-dark navbar-light fixed-top">
-    <div class="container"><h1 class="d-none">Sigfrid-Studio</h1>
-<img src="peru.png" class="img-fluid img-logo">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse">
-        <div class="raya"></div>
-        <div class="raya"></div>
-        <div class="raya"></div>
-      </button>
+    <div class="container"><img class="img-fluid logo_peru" src="img/peru.png" alt="Bandera Perú">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarcollapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="fotografo-index.html">Inicio</a></li>
-          <li class="nav-item"></li>
-          <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Galerias</a>
-            <div class="dropdown-menu font"><a class="dropdown-item" href="bodas.html">Bodas</a><a class="dropdown-item" href="paisajes.html">Paisajes</a><a class="dropdown-item" href="caras-mujeres.html">Mujeres</a><a class="dropdown-item" href="caras-hombres.html">Hombres</a></div>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#home-section">Sobre Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#info-section">Servicios</a></li>
           <li class="nav-item"><a class="nav-link" href="#info-contact">Contactanos</a></li>
         </ul>
       </div>
@@ -36,6 +29,63 @@
         <p class="parrafo" id="texto1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, voluptates harum sunt provident id nesciunt quia commodi aliquid, amet recusandae magnam voluptatem quam pariatur! Voluptas, distinctio? Pariatur eius dolorem nisi!</p>
         <p class="parrafo" id="texto2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, voluptates harum sunt provident id nesciunt quia commodi aliquid, amet recusandae magnam voluptatem quam pariatur! Voluptas, distinctio? Pariatur eius dolorem nisi!</p>
         <p class="parrafo" id="texto3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, voluptates harum sunt provident id nesciunt quia commodi aliquid, amet recusandae magnam voluptatem quam pariatur! Voluptas, distinctio? Pariatur eius dolorem nisi!</p><a class="btn btn-info boton" id="boton" href="#">Botón</a>
+      </div>
+      <div class="col-md-12 text-center mt-4"><a class="btn btn-danger" id="boton_rojo">Texto Rojo</a><a class="btn btn-violeta" id="boton_violeta">Texto Violeta</a><a class="btn btn-warning" id="boton_amarillo">Fondo Amarillo</a><a class="btn btn-dark" id="boton_negro">Fondo negro</a></div>
+      <div class="col-md-12 text-center">
+        <div class="form formulario">
+          <h1 class="title">Mi Formulario</h1>
+          <div class="formula-1">
+            <input class="input-form form-control form-edit" id="nonmbre" type="nombre" name="nombre" placeholder="Nombres ">
+            <input class="input-form-derecha form-control form-edit" id="apellidos" type="apellidos" name="apellidos" placeholder="Apellidos">
+          </div>
+          <div class="formula-2">
+            <input class="form-email form-control email" type="email" name="email" placeholder="Numero de telefono o Correo electronico">
+            <input class="form-password form-control password" type="contraseña" name="contraseña" placeholder="contraseña">
+          </div>
+          <div class="concept-text">
+            <label class="lab-text" for="radio">Fecha De Nacimiento</label>
+          </div>
+          <div class="concept-text_bajo">
+            <select class="info-day" name="day" id="day">
+              <option value="31">31</option>
+              <option value="30">30</option>
+              <option value="29">29</option>
+              <option value="28">28</option>
+              <option value="27">27</option>
+              <option value="26">26</option>
+              <option value="25">25</option>
+            </select>
+            <select class="info-month" name="month" id="month">
+              <option value="January">January</option>
+              <option value="February">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="August">August</option>
+              <option value="September">September</option>
+              <option value="October">October</option>
+              <option value="November">November</option>
+              <option value="December">December</option>
+            </select>
+            <select class="info-year" name="year" id="year">
+              <option value="1993">1993</option>
+              <option value="1999">1999</option>
+              <option value="2015">2015</option>
+              <option value="2049">2049</option>
+            </select>
+            <div class="sex-info">
+              <input type="radio" id="hombre" name="sexo" value="femenino">
+              <label for="radio">Mujer</label>
+              <input class="ml-5" type="radio" id="hombre" name="sexo" value="masculino">
+              <label for="radio">Hombre</label>
+            </div>
+            <div class="btn btn-info" id="registrate">Registrate</div>
+          </div>
+          <div class="btn btn-danger mt-3">Quitar Escuchador</div>
+          <div class="btn generador mt-3" id="generador">Sigue Dandole Click</div>
+        </div>
       </div>
     </div>
   </div>

@@ -23,10 +23,86 @@
 .texto-js {
   background-color: #187272;
   color: white;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 22px;
 }
 
 .segundo {
   background-color: violet;
+}
+
+.title {
+  color: #c0392b;
+}
+
+.formula-1 {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 20px;
+}
+
+.form-edit {
+  width: 40% !important !important;
+  border: 1px solid #4895e2 !important;
+}
+
+.input-form-derecha {
+  margin-left: 20px;
+}
+
+.form-email {
+  margin-top: 20px;
+}
+
+.email {
+  border: 1px solid #4895e2 !important;
+}
+
+.form-password {
+  margin-top: 20px;
+}
+
+.password {
+  border: 1px solid #4895e2 !important;
+}
+
+.lab-text {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #187272;
+}
+
+.formulario .info-day {
+  border: 1px solid #4895e2 !important;
+  color: violet !important;
+}
+.formulario .info-month {
+  border: 1px solid #4895e2 !important;
+  color: violet !important;
+}
+.formulario .info-year {
+  border: 1px solid #4895e2 !important;
+  color: violet !important;
+}
+.formulario .sex-info {
+  margin-top: 20px;
+  color: violet !important;
+}
+
+.generador {
+  background: #c0392b;
+  color: white;
+}
+
+.text-info_concept {
+  background: #0984b4;
+  color: white;
+  text-align: center;
+}
+
+.btn-violeta {
+  background: violet !important;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,24 +12,17 @@ body
 
   nav.navbar.navbar-expand-sm.bg-dark.navbar-light.fixed-top
     .container
-      <h1 class="d-none">Sigfrid-Studio</h1>
-      <img src="peru.png" class="img-fluid img-logo">
+      img.img-fluid.logo_peru(src="img/peru.png", alt="Bandera Perú")
       button(type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse")
-        .raya
-        .raya
-        .raya
+        span.navbar-toggler-icon
       .collapse.navbar-collapse(id="navbarcollapse")
         ul.navbar-nav.ml-auto
           li.nav-item
-            a.nav-link(href="fotografo-index.html") Inicio
+            a.nav-link(href="index.html") Inicio
           li.nav-item
-          li.nav-item.dropdown
-            a.nav-link.dropdown-toggle(href="#" data-toggle="dropdown") Galerias
-            .dropdown-menu.font
-              a.dropdown-item(href="bodas.html") Bodas
-              a.dropdown-item(href="paisajes.html") Paisajes
-              a.dropdown-item(href="caras-mujeres.html") Mujeres
-              a.dropdown-item(href="caras-hombres.html") Hombres
+            a.nav-link(href="#home-section") Sobre Nosotros
+          li.nav-item
+            a.nav-link(href="#info-section") Servicios
           li.nav-item
             a.nav-link(href="#info-contact") Contactanos
 
@@ -44,9 +37,69 @@ body
         p#texto3.parrafo Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, voluptates harum sunt provident id nesciunt quia commodi aliquid, amet recusandae magnam voluptatem quam pariatur! Voluptas, distinctio? Pariatur eius dolorem nisi!
 
         a.btn.btn-info.boton#boton(href="#") Botón
+      
+      .col-md-12.text-center.mt-4
+        a.btn.btn-danger#boton_rojo Texto Rojo
+        a.btn.btn-violeta#boton_violeta Texto Violeta
+        a.btn.btn-warning#boton_amarillo Fondo Amarillo
+        a.btn.btn-dark#boton_negro Fondo negro
 
+      .col-md-12.text-center
+        .form.formulario
+          h1.title Mi Formulario
+          .formula-1
+            input.input-form(id="nonmbre" type="nombre" name="nombre" class="form-control form-edit" placeholder="Nombres ")
+            input.input-form-derecha(id="apellidos" type="apellidos" name="apellidos" class="form-control form-edit" placeholder="Apellidos")
+          .formula-2
+            input.form-email(type="email" name="email" class="form-control email" placeholder="Numero de telefono o Correo electronico")
+            input.form-password(type="contraseña" name="contraseña" class="form-control password" placeholder="contraseña")
 
-  
+          .concept-text
+            label.lab-text(for="radio") Fecha De Nacimiento
+          
+          .concept-text_bajo
+            select.info-day(name="day" id="day")
+              option(value="31") 31
+              option(value="30") 30
+              option(value="29") 29
+              option(value="28") 28
+              option(value="27") 27
+              option(value="26") 26
+              option(value="25") 25
+
+            select.info-month(name="month" id="month")
+              option(value="January") January
+              option(value="February") February
+              option(value="March") March
+              option(value="April") April
+              option(value="May") May
+              option(value="June") June
+              option(value="July") July
+              option(value="August") August
+              option(value="September") September
+              option(value="October") October
+              option(value="November") November
+              option(value="December") December
+            
+            select.info-year(name="year" id="year")
+              option(value="1993") 1993
+              option(value="1999") 1999
+              option(value="2015") 2015
+              option(value="2049") 2049
+
+            .sex-info
+              input(type="radio" id="hombre" name="sexo" value="femenino")
+              label(for="radio") Mujer
+
+              input.ml-5(type="radio" id="hombre" name="sexo" value="masculino")
+              label(for="radio") Hombre
+
+            .btn.btn-info#registrate Registrate
+
+          .btn.btn-danger.mt-3 Quitar Escuchador
+
+          .btn.generador.mt-3#generador Sigue Dandole Click
+
 
   
    
